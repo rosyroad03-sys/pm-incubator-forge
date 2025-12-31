@@ -9,6 +9,7 @@ import { LogicalOperationExample } from './logical_operation/LogicalOperationExa
 import { CalCulationExample } from './math_operation/CalculationExample' 
 import { FirstProblem } from './Problem/FirstProblem'
 import { SecondProblem } from './Problem/SecondProblem'
+import { MapExample } from './map/MapExample'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+        <MapExample/>
         </div>
     </>
   )
