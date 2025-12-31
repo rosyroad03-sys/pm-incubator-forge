@@ -1,4 +1,5 @@
 import './App.css'
+import { MapExample } from './assets/map/MapExample'
 import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExample'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
@@ -31,6 +32,7 @@ function App() {
         <ControlFlowForSummation/>
         <ControlFlowForSumExample/>
         <SecondProblem/>
+        <MapExample/>
       </div>
       
     </>
