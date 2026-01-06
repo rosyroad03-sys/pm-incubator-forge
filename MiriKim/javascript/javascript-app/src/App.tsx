@@ -10,6 +10,8 @@ import { ControlFlowSwitch } from './control_flow/ControlFlowIfSwitch'
 import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 
+import { ControlFlowForSumExample } from './control_flow/ControlFlowForSumExample'
+
 function App() {
  
 
@@ -30,6 +32,8 @@ function App() {
 
         <ControlFlowFor/>
         <ControlFlowForSummation/>
+        <ControlFlowForSumExample/>
+
       </div>
     </>
   )
